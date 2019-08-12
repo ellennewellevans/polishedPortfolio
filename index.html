@@ -2,46 +2,166 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ellen Evans | Full Stack Web Developer</title>
 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ellen Evans | Full Stack Web Developer</title>
 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+  </script>
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <header class="header-basic">
-        <div class="header-limiter">
-            <h1><a href="#">Ellen<span>Evans</span></a></h1>
-            <nav>
-                <a href="#" class="selected">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
-            </nav>
+  <!-- NAVBAR
+================================================== -->
+  <div class="navbar-wrapper">
+    <div class="container">
+
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ellen Evans</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Portfolio <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Burger Tracker</a></li>
+                  <li><a href="#">Friend Frinder</a></li>
+                  <li><a href="#">LIRI Bot</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Group Projects</li>
+                  <li><a href="#">Weather Wear</a></li>
+                  <li><a href="#">Designated Kicker</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
-    <div class="intro-top-text">
-      Data Scientist. 
-      <br>
-      Web Developer. 
-      <br>
-      All-In-One.
+      </nav>
+
+    </div>
+  </div>
+
+
+  <div class="container marketing">
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Data Scientist.
+          <br>Web Developer.<br><span class="text-muted" id="baddass">Certified Badass.</span></h2>
+        <p class="lead">Going back to school at UNCC for Web Development was a major decision for me. With a toddler at home
+          and a full-time career as a data analyst, there wasn't much wiggle room in my schedule. But my desire to learn
+          & grow has led me here - and I wouldn't change a thing.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-responsive center-block" src="assets/images/500x500.png"
+          alt="Generic placeholder image">
+      </div>
     </div>
 
+    <hr class="featurette-divider">
 
-    <div id="wrapper">
-    <img src="assets/images/shutterstock_685430389-[Converted].gif">
-    </div>​​​​​​​​​​
-
-    <div class="container">
-        <img src="assets/images/black_box.gif" style="width:100%;">
-        <div class="centered">Have Questions?</div>
-        <div class="centered" id="answers"><strong>I can help you find the answers.</strong></div>
+    <div class="row featurette">
+      <div class="col-md-7 col-md-push-5">
+        <h2 class="featurette-heading">Locked, Loaded, & Ready. <br>
+          <span class="text-muted">Full-Stack Ecommerce
+            Professional</span></h2>
+        <p class="lead">With 10 years of prior experience in Ecommerce, Web Devolpment was the last piece of the puzzle.
+          Dev tools now in my belt, I can tag, track & analyse data without any of the traditional workplace roadblocks.
+        </p>
       </div>
+      <div class="col-md-5 col-md-pull-7">
+        <img class="featurette-image img-responsive center-block" src="assets/images/500x500.png"
+          alt="Generic placeholder image">
+      </div>
+    </div>
 
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, I'm human. <span class="text-muted">Checkmate, Ai.</span></h2>
+        <p class="lead">In a world full of big data, insights are only as good as someone who understands and can take
+          action. When forcefeeding a system is not your thing, you can rely on someone like me to get a grip on the
+          situation.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-responsive center-block" src="assets/images/500x500.png"
+          alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+          alt="Generic placeholder image" width="140" height="140">
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+          vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+          magna.</p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+          alt="Generic placeholder image" width="140" height="140">
+        <h2>Heading</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis
+          consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+        </p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+          alt="Generic placeholder image" width="140" height="140">
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
+          felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+          massa justo sit amet risus.</p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+  </div><!-- /.container -->
 </body>
 
 </html>
