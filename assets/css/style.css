@@ -76,6 +76,10 @@ body {
   font-family: 'Dancing Script', cursive;
 }
 
+#middle {
+  size: 75%;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
