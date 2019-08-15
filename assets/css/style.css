@@ -107,6 +107,10 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+  #portfolio-buffer {
+    margin-top: 100px;
+  }
 }
 
 @media (min-width: 992px) {
