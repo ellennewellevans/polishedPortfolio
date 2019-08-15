@@ -61,6 +61,11 @@ body {
 #baddass {
   font-family: 'Dancing Script', cursive;
 }
+
+#portfolio-buffer {
+  margin-top: 100px;
+}
+
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
